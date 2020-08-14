@@ -32,7 +32,12 @@ def get_english_meaning(lib,emo)
   emoticons.each { |k, v|
     v.each{ |key, value| }
       if v = emo
-        ans = 
+        ans = k.to_s
       end
     }
+  if ans != ""
+    ans
+  else
+    "Sorry, that emoticon was not found"
+  end
 end
