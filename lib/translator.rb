@@ -27,10 +27,12 @@ def get_japanese_emoticon(lib, emo)
 end
 
 def get_english_meaning(lib,emo)
+  ans = ""
   emoticons = load_library(lib)
   emoticons.each { |k, v|
-    v.each{ |k,v| }
+    v.each{ |key, value| }
       if v = emo
-    end
+        ans = 
+      end
     }
 end
