@@ -35,6 +35,7 @@ def get_english_meaning(lib,emo)
         ans = k.to_s
       end
     }
+  }
   if ans != ""
     ans
   else
