@@ -31,7 +31,7 @@ def get_english_meaning(lib,emo)
   emoticons = load_library(lib)
   emoticons.each { |k, v|
     v.each{ |key, value| }
-      if value = emo
+      if value == emo
         ans = k.to_s
       end
     }
